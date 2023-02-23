@@ -7,6 +7,7 @@
   padding: 1rem 3rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: fixed;
+  z-index: 9999;
 }
 
 .logo {
@@ -21,7 +22,7 @@
 }
 
 .navbar_items li {
-  margin-right: 0.75rem;
+  margin-right: 1.5rem;
   font-size: 1.25rem;
   font-weight: 500;
   position: relative;
@@ -59,6 +60,13 @@
   .navbar {
     width: 94vw;
   }
+  .logo {
+    width: 50px;
+  }
+
+  .navbar_items li {
+    margin-right: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -73,7 +81,10 @@
     height: 99vh;
     background-color: #0a47c4;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 40px 0 0 10px;
+    padding: 20px 0 0 10px;
+  }
+  .logo {
+    width: 40px;
   }
 
   .show {

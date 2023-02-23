@@ -1,0 +1,74 @@
+.container {
+  padding-top: 5rem;
+  height: 550px;
+  position: relative;
+}
+
+.description {
+  width: 600px;
+  position: absolute;
+  z-index: 999;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  padding: 1rem 2rem 2rem;
+  border-radius: 10px;
+  color: #ffffff;
+  top: 25%;
+  left: 10%;
+}
+
+.description h1 {
+  font-size: 2rem;
+  color: #ff0000;
+}
+
+.description p {
+  font-size: 1.25rem;
+}
+
+.ieee {
+  color: #ff0000;
+  font-weight: 700;
+}
+.organized {
+  color: #fff000;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ff0000;
+}
+
+.links .icons {
+  font-size: 1.5rem;
+  color: #fff000;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .description {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    height: 550px;
+  }
+  .description {
+    width: 300px;
+  }
+}
