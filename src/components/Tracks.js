@@ -145,6 +145,14 @@ const Tracks = () => {
           </ul>
         ))}
       </div>
+      <button className='register'>
+        <a
+          href='https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICACITE2023.'
+          target='_blank'
+        >
+          Sumbit Your Paper
+        </a>
+      </button>
     </div>
   );
 };

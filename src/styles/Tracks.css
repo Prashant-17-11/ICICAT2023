@@ -60,6 +60,24 @@
   font-weight: 450;
 }
 
+.register {
+  margin: 2rem 0 2rem 35vw;
+  /* width: 300px; */
+  padding: 1rem 2rem;
+  background-color: #0a47c4;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.register a {
+  color: #fafafa;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 900px) {
   .tracks {
     padding: 1rem;
@@ -69,6 +87,9 @@
   }
   .track_fields {
     margin: 1rem;
+  }
+  .register {
+    margin: 2rem 0 2rem 27vw;
   }
 }
 
@@ -85,5 +106,9 @@
 
   .track {
     width: 80vw;
+  }
+
+  .register {
+    margin: 2rem 0 2rem 12vw;
   }
 }
