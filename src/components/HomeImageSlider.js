@@ -38,10 +38,17 @@ const HomeImageSlider = () => {
             <span className='organized'>Automation Technology</span>
           </h1>
           <p className='ieee'>IEEE Conference Record ID: 57735</p>
-          <p>
-            <span className='organized'>Organized by:-</span> Department of
-            Computer Science & Engineering, Buddha Institute of Technology, Gida
-            , Gorakhpur
+          <p className='organized'>
+            Organized by{" "}
+            <span className='ieee'>
+              Buddha Institute of Technology, Gida , Gorakhpur
+            </span>
+            <br />
+            In Collaboration with{" "}
+            <span className='ieee'>Rajkiya Engineering College, Sonbhadra</span>
+            <br />
+            Technical association with{" "}
+            <span className='ieee'>MMMUT, Gorakhpur</span>
           </p>
         </div>
         <div className='links'>

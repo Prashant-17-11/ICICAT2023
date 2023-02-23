@@ -1,0 +1,26 @@
+.about {
+  margin: 1rem;
+  padding: 0 2rem 1rem;
+  min-height: 300px;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.about h1::after {
+  content: "";
+  width: 150px;
+  height: 6px;
+  background: #0a47c4;
+  position: absolute;
+  bottom: -5px;
+  left: 3rem;
+}
+
+.about p {
+  font-size: 1.35rem;
+  font-weight: 450;
+  padding: 0 1rem;
+}
