@@ -1,0 +1,43 @@
+.aboutCity {
+  margin: 0 2rem;
+}
+
+.aboutCity h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0 1rem;
+  position: relative;
+}
+
+.aboutCity h2::after {
+  content: "";
+  width: 350px;
+  height: 6px;
+  background: #0a47c4;
+  position: absolute;
+  bottom: -5px;
+  left: 0rem;
+}
+
+.aboutCity ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutCity ul li {
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #fff000cc;
+  font-size: 1.125rem;
+  font-weight: 750;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.aboutCity ul li a {
+  text-decoration: none;
+  color: #ff0000;
+}
