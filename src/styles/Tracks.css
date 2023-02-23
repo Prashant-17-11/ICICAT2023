@@ -59,3 +59,31 @@
   font-size: 1.125rem;
   font-weight: 450;
 }
+
+@media screen and (max-width: 900px) {
+  .tracks {
+    padding: 1rem;
+  }
+  .track_headers {
+    width: 90vw;
+  }
+  .track_fields {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .track_headers {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .track_fields {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .track {
+    width: 80vw;
+  }
+}
