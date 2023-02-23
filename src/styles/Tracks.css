@@ -1,0 +1,61 @@
+.tracks {
+  padding: 0 3rem 1rem;
+}
+
+.tracks h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 0 1rem;
+  position: relative;
+}
+
+.tracks h1::after {
+  content: "";
+  width: 150px;
+  height: 6px;
+  background: #0a47c4;
+  position: absolute;
+  bottom: -5px;
+  left: 0.5rem;
+}
+
+.track_headers {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.track {
+  width: 200px;
+  margin: 0.5rem 1rem;
+  background-color: #0a47c4ce;
+  color: #fafafa;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  color: #fff000;
+  font-weight: 650;
+}
+
+.track_fields {
+  width: 80vw;
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+}
+
+.field {
+  font-size: 1.125rem;
+  font-weight: 450;
+}
