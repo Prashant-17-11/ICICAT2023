@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--text-color-light);
   min-height: 250px;
@@ -57,4 +57,38 @@
   position: absolute;
   top: -2px;
   left: -10px;
+}
+
+.copyright {
+  margin-bottom: 1rem;
+  background-color: var(--text-color-light);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact_info {
+    width: 300px;
+  }
+
+  .quick_links {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    align-items: normal;
+  }
+  .contact_info {
+    width: 250px;
+  }
+
+  .quick_links {
+    width: 250px;
+  }
+
+  .copyright {
+    font-size: 0.625rem;
+  }
 }

@@ -36,7 +36,7 @@ const HomeImageSlider = () => {
 
   return (
     <>
-      <div className='container' id='home'>
+      <div className='container'>
         <div style={bgImageSlider}></div>
         <div className='description'>
           <div>

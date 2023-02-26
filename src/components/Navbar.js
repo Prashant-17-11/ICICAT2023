@@ -27,19 +27,19 @@ const Navbar = () => {
       <div>
         <ul className={toggle ? "navbar_items show" : "navbar_items"}>
           <li>
-            <a href='#home'>Home</a>
+            <a href='./'>Home</a>
           </li>
           <li>
-            <a href='#about'>About</a>
+            <a href='./#about'>About</a>
           </li>
           <li>
-            <a href='#tracks'>Tracks</a>
+            <a href='./#tracks'>Tracks</a>
           </li>
           <li>
-            <a href='./'>Committee</a>
+            <a href='./committee'>Committee</a>
           </li>
           <li>
-            <a href='./'>Registration</a>
+            <a href='./registration'>Registration</a>
           </li>
         </ul>
       </div>
