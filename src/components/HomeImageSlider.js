@@ -19,7 +19,7 @@ const HomeImageSlider = () => {
       } else {
         setCurrent(current + 1);
       }
-    }, 3000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, [current]);
 

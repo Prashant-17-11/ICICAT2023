@@ -9,6 +9,7 @@ import Tracks from "./Tracks";
 import Venue from "./Venue";
 
 import "../styles/Home.css";
+import TechnicalSponsers from "./TechnicalSponsers";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <AboutCity />
       <Venue />
       <OrganizingPartners />
+      <TechnicalSponsers />
     </div>
   );
 };
