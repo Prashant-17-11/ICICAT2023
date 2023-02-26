@@ -5,7 +5,10 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div className='about'>
-      <h1>ICICAT</h1>
+      <h1>
+        <span style={{ color: "var(--navbar-highlight-color)" }}>ICICAT</span>
+        2023
+      </h1>
       <p>
         "IEEE Uttar Pradesh Section International Conference on on IoT,
         Communication & Automation Technology (ICICAT-2023)" is top level
@@ -14,7 +17,7 @@ const About = () => {
         Engineering will be organized next year by Buddha Institute of
         Technology (BIT), Gorakhpur (Uttar Pradesh), India.
       </p>
-      <p>
+      <p id='tracks'>
         This conference will provide an excellent platform to the researchers to
         present their research work and is known as the UP-section's conference.
         The conference is technically sponsored by IEEE UP Section. There are

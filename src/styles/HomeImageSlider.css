@@ -1,84 +1,124 @@
 .container {
-  padding-top: 5rem;
-  height: 550px;
+  width: 100vw;
+  height: 750px;
   position: relative;
 }
 
 .description {
-  width: 600px;
+  width: 800px;
+  height: 450px;
   position: absolute;
   z-index: 999;
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: rgba(100, 100, 100, 0.45);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(15px);
-  padding: 1rem 2rem 2rem;
+  backdrop-filter: blur(5px);
+  padding: 0 2rem 3rem;
   border-radius: 10px;
-  color: #ffffff;
-  top: 25%;
-  left: 10%;
+  color: var(--text-color-light);
+  top: 15%;
+  left: 7%;
 }
 
 .description h1 {
-  font-size: 2rem;
-  color: #ff0000;
+  font-size: 3.125rem;
 }
 
 .description p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .ieee {
-  color: #ffffff;
+  color: var(--text-color-light);
   font-weight: 700;
 }
 .organized {
-  color: #0a47c4;
-  font-weight: 700;
+  color: var(--navbar-highlight-color);
+  font-weight: 750;
 }
 
 .links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #ff0000;
+  color: var(--text-color-light);
 }
 
 .links .icons {
-  font-size: 1.5rem;
-  color: #0a47c4;
+  font-size: 2rem;
+  color: var(--text-highlight-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    height: 650px;
+  }
+  .description {
+    top: 12%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  .container {
-    height: 500px;
+  .description {
+    width: 650px;
+    height: 470px;
+    left: 5%;
+  }
+  .description h1 {
+    font-size: 2.5rem;
+  }
+
+  .description p {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .description {
+    width: 600px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .description {
     width: 500px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    height: 550px;
-  }
-  .description {
-    width: 300px;
-    top: 20%;
-    left: 7%;
+    height: 400px;
   }
   .description h1 {
-    font-size: 1.5rem;
+    font-size: 2.125rem;
   }
 
   .description p {
-    font-size: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .links {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 650px;
+  }
+  .description {
+    width: 400px;
+    top: 15%;
+    left: 7%;
+  }
+  .description h1 {
+    font-size: 1.75rem;
+  }
+
+  .description p {
+    font-size: 1.125rem;
   }
 
   .links {
@@ -88,5 +128,21 @@
 
   .links .icons {
     font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    width: 350px;
+    top: 15%;
+    left: 1%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    width: 300px;
+    height: 470px;
+    top: 12%;
   }
 }

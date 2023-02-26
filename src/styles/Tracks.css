@@ -7,13 +7,14 @@
   font-weight: 700;
   margin: 0 0 0 1rem;
   position: relative;
+  color: var(--navbar-highlight-color);
 }
 
 .tracks h1::after {
   content: "";
-  width: 150px;
-  height: 6px;
-  background: #0a47c4;
+  width: 250px;
+  height: 4px;
+  background: var(--heading-underline-color);
   position: absolute;
   bottom: -5px;
   left: 0.5rem;
@@ -27,10 +28,10 @@
 }
 
 .track {
-  width: 200px;
+  width: 250px;
   margin: 0.5rem 1rem;
-  background-color: #0a47c4ce;
-  color: #fafafa;
+  background-color: var(--button-color-dark);
+  color: var(--text-color-light);
   padding: 0.5rem;
   border-radius: 10px;
   font-weight: 600;
@@ -40,7 +41,7 @@
 }
 
 .active {
-  color: #fff000;
+  color: var(--button-highlight-color);
   font-weight: 650;
 }
 
@@ -50,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
 }
@@ -61,21 +62,24 @@
 }
 
 .register {
-  margin: 2rem 0 2rem 35vw;
-  /* width: 300px; */
+  margin: 2rem 0 2rem 37vw;
   padding: 1rem 2rem;
-  background-color: #0a47c4;
-  border: 2px solid #fafafa;
+  background-color: var(--button-color-dark);
+  border: 2px solid var(--text-color-light);
   border-radius: 10px;
   cursor: pointer;
 }
 
 .register a {
-  color: #fafafa;
+  color: var(--text-color-light);
   text-decoration: none;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.register a:hover {
+  color: var(--button-highlight-color);
 }
 
 @media screen and (max-width: 900px) {
@@ -86,7 +90,10 @@
     width: 90vw;
   }
   .track_fields {
-    margin: 1rem;
+    width: 87vw;
+    flex-direction: column;
+    align-items: start;
+    margin: 1vw;
   }
   .register {
     margin: 2rem 0 2rem 27vw;
@@ -100,7 +107,7 @@
   }
 
   .track_fields {
-    flex-direction: column;
+    width: 80vw;
     margin: 0;
   }
 

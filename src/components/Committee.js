@@ -8,32 +8,32 @@ const Committee = () => {
   return (
     <div className='committee'>
       <div className='post'>
-        <h2 className='post_title'>Chief Patron (s)</h2>
+        <h2 className='post_title'>Chief Patron(s)</h2>
         <div className='persons'>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. R. A. Agarwal (Chairman) Buddha Insute of Technology,
+              Dr. R. A. Agarwal (Chairman) Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. Rajat Agarwal, Secretary Buddha Instue of Technology,
+              Dr. Rajat Agarwal, Secretary Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Prof. Sri Niwas Singh ( Director) IIIT Gwalior, India
+              Prof. Sri Niwas Singh (Director) IIIT Gwalior, India
             </div>
           </div>
         </div>
       </div>
       <div className='post'>
-        <h2 className='post_title'>Patron (s)</h2>
+        <h2 className='post_title'>Patron(s)</h2>
         <div className='persons'>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
@@ -45,26 +45,26 @@ const Committee = () => {
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Prof. Arvind Kumar Pandey (Director) , Buddha Insute of
+              Prof. Arvind Kumar Pandey (Director) , Buddha Institute of
               Technology, Gorakhpur, India
             </div>
           </div>
         </div>
       </div>
       <div className='post'>
-        <h2 className='post_title'>Event Speaker (s)</h2>
+        <h2 className='post_title'>Event Speaker(s)</h2>
         <div className='persons'>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. R. A. Agarwal (Chairman) Buddha Insute of Technology,
+              Dr. R. A. Agarwal (Chairman) Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. Rajat Agarwal, Secretary Buddha Instue of Technology,
+              Dr. Rajat Agarwal, Secretary Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>
@@ -77,14 +77,14 @@ const Committee = () => {
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. R. A. Agarwal (Chairman) Buddha Insute of Technology,
+              Dr. R. A. Agarwal (Chairman) Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>
           <div className='person_card'>
             <img className='person_profile' src={profile} alt='profile' />
             <div className='person_title'>
-              Dr. Rajat Agarwal, Secretary Buddha Instue of Technology,
+              Dr. Rajat Agarwal, Secretary Buddha Institute of Technology,
               Gorakhpur, India
             </div>
           </div>

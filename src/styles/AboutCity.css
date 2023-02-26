@@ -3,7 +3,7 @@
 }
 
 .aboutCity h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0 0 0 1rem;
   position: relative;
@@ -11,9 +11,9 @@
 
 .aboutCity h2::after {
   content: "";
-  width: 350px;
-  height: 6px;
-  background: #0a47c4;
+  width: 400px;
+  height: 4px;
+  background: var(--heading-underline-color);
   position: absolute;
   bottom: -5px;
   left: 0rem;
@@ -23,21 +23,56 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .aboutCity ul li {
-  margin: 0.5rem;
-  padding: 1rem;
-  background-color: #fff000cc;
+  width: 350px;
+  margin: 1rem;
+  padding: 5px;
+  background-color: var(--committee-card-background);
   font-size: 1.125rem;
   font-weight: 750;
-  border: 2px solid aliceblue;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutCity ul li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--text-color-light);
 }
 
 .aboutCity ul li a {
+  width: 230px;
   text-decoration: none;
-  color: #ff0000;
+  color: var(--text-color-light);
+}
+
+@media screen and (max-width: 850px) {
+  .aboutCity ul li {
+    width: 250px;
+    font-size: 1rem;
+    font-weight: 600px;
+  }
+
+  .aboutCity ul li img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .aboutCity ul li a {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .aboutCity h2::after {
+    width: 250px;
+  }
 }

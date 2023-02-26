@@ -12,22 +12,28 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div>
+      <div className='left'>
         <a href='./'>
           {" "}
           <img src={logo} alt='logo' className='logo' />
+          <span className='nav_text'>
+            <span style={{ color: "var(--navbar-highlight-color)" }}>
+              ICICAT
+            </span>
+            2023
+          </span>
         </a>
       </div>
       <div>
         <ul className={toggle ? "navbar_items show" : "navbar_items"}>
           <li>
-            <a href='./'>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='./'>About</a>
+            <a href='#about'>About</a>
           </li>
           <li>
-            <a href='./'>Tracks</a>
+            <a href='#tracks'>Tracks</a>
           </li>
           <li>
             <a href='./'>Committee</a>

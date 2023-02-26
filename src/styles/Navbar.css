@@ -1,10 +1,11 @@
 .navbar {
   width: 96vw;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #0a47c4;
-  padding: 0.5rem 3rem;
+  background-color: var(--navbar-color);
+  padding: 0.5rem 0rem 0.5rem 3rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   position: fixed;
   z-index: 9999;
@@ -12,6 +13,19 @@
 
 .logo {
   width: 60px;
+  height: 60px;
+}
+
+.left a {
+  text-decoration: none;
+  display: flex;
+}
+
+.nav_text {
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem;
+  font-weight: 500;
+  color: var(--text-color-light);
 }
 
 .navbar_items {
@@ -22,7 +36,7 @@
 }
 
 .navbar_items li {
-  margin-right: 1.5rem;
+  margin-right: 1.75rem;
   font-size: 1.25rem;
   font-weight: 500;
   position: relative;
@@ -30,26 +44,26 @@
 }
 
 .navbar_items li a {
-  color: #ffffff;
+  color: var(--text-color-light);
   text-decoration: none;
 }
 
 .navbar_items li a:hover {
-  color: #ffff00;
+  color: var(--navbar-highlight-color);
 }
 
 .navbar_items li a:hover::after {
   content: "";
   width: 100%;
   height: 2px;
-  background: #ffff00;
+  background: var(--navbar-highlight-color);
   position: absolute;
   bottom: -4px;
   left: 0px;
 }
 
 .toggle {
-  color: #ffffff;
+  color: var(--navbar-highlight-color);
   font-size: 1.75rem;
   font-weight: 00;
   display: none;
@@ -58,10 +72,11 @@
 
 @media screen and (max-width: 1000px) {
   .navbar {
-    width: 94vw;
+    padding-left: 2rem;
   }
   .logo {
     width: 50px;
+    height: 50px;
   }
 
   .navbar_items li {
@@ -75,16 +90,13 @@
     align-items: flex-start;
     justify-content: flex-start;
     position: fixed;
-    top: 90px;
+    top: 50px;
     right: -300px;
     width: 200px;
     height: 99vh;
-    background-color: #0a47c4;
+    background-color: var(--navbar-color);
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 20px 0 0 10px;
-  }
-  .logo {
-    width: 40px;
   }
 
   .show {
@@ -97,5 +109,11 @@
 
   .toggle {
     display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 99vw;
   }
 }

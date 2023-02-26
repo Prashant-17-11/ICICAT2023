@@ -1,0 +1,82 @@
+.venue {
+  padding: 2rem;
+}
+
+.venue h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 2rem 2rem;
+  position: relative;
+}
+
+.venue h2::after {
+  content: "";
+  width: 150px;
+  height: 4px;
+  background: var(--heading-underline-color);
+  position: absolute;
+  bottom: -5px;
+  left: 0rem;
+}
+
+.venue_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.venue_details {
+  width: 450px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+iframe {
+  width: 600px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1300px) {
+  .venue {
+    padding: 2rem 13vw;
+  }
+
+  .venue h2 {
+    margin: 0 1rem 1rem 0;
+  }
+  .venue_details {
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  iframe {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .venue {
+    padding: 2rem 14vw;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+  .venue_details {
+    width: 350px;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .venue {
+    padding: 2rem 14vw;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+}

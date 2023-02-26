@@ -1,11 +1,11 @@
 .committee {
-  margin: 0 1rem;
+  margin: 0 0 2rem;
   padding: 1rem;
+  background-color: var(--text-color-light);
 }
 
 .post {
-  margin: 1rem 5rem;
-  background-image: linear-gradient(45deg, #2d70f77a, #664cf98a);
+  margin: 1rem 3rem;
   padding: 0.5rem 5vw;
   border-radius: 10px;
 }
@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 1.75rem;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--text-highlight-color);
 }
 
 .persons {
@@ -26,26 +26,38 @@
 }
 
 .person_card {
-  width: 300px;
+  width: 350px;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 5px;
-  background-color: #ffffff88;
+  border: 1px solid var(--committee-card-background);
+  display: flex;
 }
 
 .person_profile {
   border-radius: 50%;
-  margin-left: 40px;
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .person_title {
   font-size: 1.125rem;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (max-width: 900px) {
   .post {
-    padding: 0.5rem 14vw;
+    padding: 0;
+  }
+
+  .person_card {
+    width: 250px;
+  }
+
+  .person_profile {
+    width: 70px;
+    height: 70px;
   }
 }
