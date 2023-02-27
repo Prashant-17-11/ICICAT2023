@@ -22,9 +22,10 @@ const Venue = () => {
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14252.63663838802!2d83.26270768752353!3d26.739296632555305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399147380139859b%3A0x708768ccb2c065c9!2sBuddha%20Institute%20of%20Technology%20%2C%20Gorakhpur!5e0!3m2!1sen!2sin!4v1677175967596!5m2!1sen!2sin'
           style={{ border: 0 }}
-          allowfullscreen=''
+          allowFullScreen=''
           loading='lazy'
           referrerpolicy='no-referrer-when-downgrade'
+          title='Venue'
         ></iframe>
       </div>
     </div>
